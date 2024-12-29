@@ -28,5 +28,6 @@ public class ItemsTrigger : MonoBehaviour
         PlayerController player = playerCollider.GetComponent<PlayerController>();
         player.speed += Settings.speedUpItemValue;
         Destroy(gameObject);
+        Debug.Log($"玩家获得加速，当前速度：{player.speed}");
     }
 }
