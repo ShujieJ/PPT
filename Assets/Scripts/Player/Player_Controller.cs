@@ -17,7 +17,7 @@ public class Player_Controller : MonoBehaviour
     /// <summary>
     /// 玩家角色的炸弹数量
     /// </summary>
-    public float bombCount;
+    public int bombCount;
     /// <summary>
     /// 玩家角色的炸弹爆炸范围
     /// </summary>
