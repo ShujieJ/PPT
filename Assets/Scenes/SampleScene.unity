@@ -693,6 +693,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpeedUp
       objectReference: {fileID: 0}
+    - target: {fileID: 3454571009944934259, guid: e0ca88e46ce334f4aacb8c1a277fb586, type: 3}
+      propertyPath: onPickUpSpeedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3454571009944934259, guid: e0ca88e46ce334f4aacb8c1a277fb586, type: 3}
+      propertyPath: onPickUpSpeedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1604459800}
+    - target: {fileID: 3454571009944934259, guid: e0ca88e46ce334f4aacb8c1a277fb586, type: 3}
+      propertyPath: onPickUpSpeedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnSpeedUpPicked
+      objectReference: {fileID: 0}
+    - target: {fileID: 3454571009944934259, guid: e0ca88e46ce334f4aacb8c1a277fb586, type: 3}
+      propertyPath: onPickUpSpeedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlayerController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3454571009944934259, guid: e0ca88e46ce334f4aacb8c1a277fb586, type: 3}
+      propertyPath: onPickUpSpeedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1604459797}
+    - target: {fileID: 3454571009944934259, guid: e0ca88e46ce334f4aacb8c1a277fb586, type: 3}
+      propertyPath: onPickUpSpeedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3862143405916051121, guid: e0ca88e46ce334f4aacb8c1a277fb586, type: 3}
       propertyPath: m_IsTrigger
       value: 1

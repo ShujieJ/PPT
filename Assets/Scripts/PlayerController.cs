@@ -79,5 +79,11 @@ public class PlayerController : MonoBehaviour
     {
         rb.velocity = movementInput * speed;
     }
+
+    public void OnSpeedUpPicked(GameObject speedUp)
+    {
+        speed += Settings.speedUpItemValue;
+        Debug.Log($"玩家捡起了加速道具，速度为{speed}");
+    }
     
 }
