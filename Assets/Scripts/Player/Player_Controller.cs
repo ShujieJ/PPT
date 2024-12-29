@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Player_Controller : MonoBehaviour
 {
-    // 用于控制玩家的刚体组件
+    /// <summary>
+    /// 玩家角色的刚体组件
+    /// </summary>
     private Rigidbody2D rb;
     /// <summary>
     /// 玩家角色的移动速度
@@ -22,15 +24,21 @@ public class Player_Controller : MonoBehaviour
     /// 玩家角色的炸弹爆炸范围
     /// </summary>
     public float bombRadius;
-    // 玩家的X方向输入
+    /// <summary>
+    /// 玩家的X方向输入
+    /// </summary>
     private float inputX;
-    // 玩家的Y方向输入
+    /// <summary>
+    /// 玩家的Y方向输入
+    /// </summary>
     private float inputY;
-    // 合成的玩家角色移动输入
+    /// <summary>
+    /// 玩家的移动输入
+    /// </summary>
     private Vector2 movementInput;
     
     /// <summary>
-    /// 初始化内容
+    /// 初始化
     /// </summary>
     private void Awake()
     {
